@@ -117,6 +117,8 @@ namespace SeleniumTest
             return false;
             }
         }
+        
+        //Crea un archivo log en formato pdf
         public void write_log(String result)
         {
             log += result;
